@@ -1,0 +1,23 @@
+{
+  "name": "jfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:css": "postcss style.css -o tailwind.css -w",
+    "build:css": "postcss style.css -o tailwind.css --env production",
+    "build:tailwind": "tailwind build index.css -o tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  }
+}
