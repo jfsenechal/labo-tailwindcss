@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             gridTemplateColumns: {
-                'jfs': '4.2rem 1fr 1fr 1fr',
+                'jfs': '4.2rem 1fr minmax(200px, 1fr) minmax(200px, 1fr) minmax(1fr, 150px)',
             }
         },
         colors: {
