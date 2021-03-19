@@ -2,7 +2,12 @@ module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {}, colors: {
+        extend: {
+            gridTemplateColumns: {
+                'jfs': '4.2rem 1fr 1fr 1fr',
+            }
+        },
+        colors: {
             transparent: 'transparent',
             current: 'currentColor',
             pink: {
