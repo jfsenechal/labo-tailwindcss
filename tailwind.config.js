@@ -4,7 +4,13 @@ module.exports = {
     theme: {
         extend: {
             gridTemplateColumns: {
-                'jfs': 'auto 1fr minmax(200px, 1fr) minmax(200px, 1fr) minmax(1fr, 150px)',
+                //https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns
+                'jfs': 'auto 1fr minmax(200px, 1fr) minmax(400px, 1fr) minmax(120px, max-content)',
+                'jfs2': 'repeat(auto-fill, minmax(120px, 1fr))',
+            },
+            gridTemplateRows: {
+                //https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows
+                'jfsr': '64px auto auto auto',
             }
         },
         colors: {
