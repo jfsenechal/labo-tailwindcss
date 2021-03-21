@@ -33,6 +33,9 @@ module.exports = {
                     DEFAULT: '#4AE0C7',
                     dark: '#487f89',
                 },
+            },
+            spacing: {
+                '134': '34rem',
             }
         },
     },
