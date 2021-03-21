@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +15,12 @@
     "autoprefixer": "^10.2.3",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2",
-    "vite": "^2.0.0-beta.50"
+    "vue": "^3.0.5"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3"
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.1.0"
   }
 }
