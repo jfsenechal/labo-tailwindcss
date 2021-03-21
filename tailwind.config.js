@@ -3,6 +3,10 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
+            backgroundImage: theme => ({
+                'hero-pattern': "url('/public/fond4.jpg')",
+                'footer-texture': "url('/img/footer-texture.png')",
+            }),
             boxShadow: {
                 link: '0 -8px 0 0 #ff16d1 inset',
             },
@@ -14,22 +18,23 @@ module.exports = {
             gridTemplateRows: {
                 //https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-rows
                 'jfsr': '64px auto auto auto',
+            },
+            fontFamily: {
+                headline: "Poppins, sans-serif",
+            },
+            colors: {
+                pink: {
+                    light: '#ff7ce5',
+                    DEFAULT: '#ff49db',
+                    dark: '#ff16d1',
+                },
+                marchebe: {
+                    light: '#FFCF1B',
+                    DEFAULT: '#4AE0C7',
+                    dark: '#487f89',
+                },
             }
         },
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            pink: {
-                light: '#ff7ce5',
-                DEFAULT: '#ff49db',
-                dark: '#ff16d1',
-            },
-            marchebe: {
-                light: '#FFCF1B',
-                DEFAULT: '#4AE0C7',
-                dark: '#487f89',
-            },
-        }
     },
     variants: {
         extend: {

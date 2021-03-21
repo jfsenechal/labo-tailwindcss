@@ -1,6 +1,8 @@
 @tailwind base;
-a:hover {
-  /*  @apply no-underline shadow-link;*/
+@layer base {
+    a:hover {
+        /*  @apply text-blue-600 underline no-underline shadow-link;*/
+    }
 }
 @tailwind components;
 @tailwind utilities;

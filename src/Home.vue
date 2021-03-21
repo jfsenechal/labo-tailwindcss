@@ -1,5 +1,5 @@
 <template>
-  <div class="container grid gap-4 mx-auto grid-cols-jfs grid-rows-2 items-end">
+  <div class="container-xl grid gap-4 mx-auto grid-cols-jfs grid-rows-jfsr items-end">
     <div class="logo col-start-1 col-end-2">
       <Logo/>
     </div>
@@ -15,6 +15,7 @@
     <div class="social col-start-5 col-end-6 pr-5 pl-5">
       <Social/>
     </div>
+    <ZoneSearch/>
   </div>
 </template>
 
@@ -24,4 +25,5 @@ import Blanc from './components/Blanc.vue'
 import Vivre from './components/Vivre.vue'
 import Shortcut from './components/Shortcut.vue'
 import Social from './components/Social.vue'
+import ZoneSearch from './components/ZoneSearch.vue'
 </script>
