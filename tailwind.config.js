@@ -2,7 +2,16 @@ module.exports = {
     purge: [],
     darkMode: false, // or 'media' or 'class'
     theme: {
+        textColor: {
+            'primary': '#3490dc',
+            'secondary': '#ffed4a',
+            'danger': '#e3342f',
+            'marche-dark': '#487f89'
+        },
         extend: {
+            boxShadow: {
+                link: '0 -8px 0 0 #ff16d1 inset',
+            },
             gridTemplateColumns: {
                 //https://developer.mozilla.org/fr/docs/Web/CSS/grid-template-columns
                 'jfs': 'auto 1fr minmax(200px, 1fr) minmax(400px, 1fr) minmax(120px, max-content)',
@@ -31,6 +40,8 @@ module.exports = {
     variants: {
         extend: {
             backgroundColor: ["active"],
+            textDecoration: ['active'],
+            textColor: ['active'],
         },
     },
     plugins: [],
